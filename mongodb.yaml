@@ -9,5 +9,5 @@
 
   - name: Install mongodb server
     ansible.builtin.dnf:
-      name: 
-          
+      name: mongodb-org
+      state: presenet
